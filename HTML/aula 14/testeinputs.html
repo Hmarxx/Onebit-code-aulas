@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de inputs</title>
+</head>
+<body>
+    <h1>Testando os inputs</h1>
+
+    
+    <label for="nome">Nome: </label>
+    <input type="text" id="nome" name="nome">
+    <br> <br>
+
+    <label for="email">E-mail: </label>
+    <input type="email" id="email" name="email">
+    <br> <br>
+
+    <label for="senha">Senha: </label>
+    <input type="password" name="senha" id="senha">
+    <br> <br>
+
+    <label for="">Gênero</label>
+    <br>
+
+    <input type="radio" id="masculino" name="genero" value="m">
+    <label for="masculino">Masculino</label>
+
+    <input type="radio" id="feminino" name="genero" value="f">
+    <label for="feminino">Feminino</label>
+    <br> <br>
+
+    <label for="interesse">Interesse</label>
+    <br>
+    <input type="checkbox" id="backend" name="interesse" value="backend">
+    <label for="backend">Back-end</label>
+
+    <input type="checkbox" id="frontend" name="interesse" value="frontend">
+    <label for="frontend">Front-end</label>
+
+    <input type="checkbox" id="mobile" name="interesse" value="mobile">
+    <label for="mobile">Mobile</label>
+    <br><br>
+
+    <label for="data">Data de nascimento</label>
+    <input type="date" id="data" name="data">
+    <br><br>
+
+    <label for="selecione"></label>
+    <select name="seleção" id="selecione">
+        <option value="" selected disabled>Seleciona uma opção</option>
+        <option value="estudante">Estudante</option>
+        <option value="estagiário">Estagiário</option>
+        <option value="efetivo">Trabalhando</option>
+        <option value="aposentado">Aposentado</option>
+    </select>
+    <br><br>
+
+    <label for="fale">Sobre você: </label>
+    <textarea name="sobrevc" id="fale" cols="30" rows="10" placeholder="fale um pouco sobre você"></textarea>
+    <br><br>
+
+    <label for="foto">Escolha sua foto</label>
+    <input type="file" id="foto" name="foto">
+    <br><br>
+
+    <button id="enviar">Enviar</button>
+</body>
+</html>
