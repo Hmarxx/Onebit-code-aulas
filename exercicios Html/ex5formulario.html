@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário de Inscrição</h1>
+
+    <form action="">
+
+    <label for="nome">Nome:</label> <br>
+    <input type="text" id="nome" name="nome"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" name="email" id="email"><br><br>
+
+    <label for="wpp">WhatsApp</label><br>
+    <input type="tel" name="wpp" id="wpp"><br><br>
+
+    <label for="atuacao">Área de atuação</label><br>
+
+    <input type="radio" id="dev" name="atuacao" value="dev" required>
+    <label for="dev">Desenvolvimento</label>
+
+    <input type="radio" id="qa" name="atuacao" value="qa">
+    <label for="qa">Quality Assurance (QA)</label>
+
+    <input type="radio" id="analise" name="atuacao" value="analise">
+    <label for="analise">Análise de Dados</label>
+
+    <input type="radio" id="infra" name="atuacao" value="infra">
+    <label for="infra">Infraestrutura</label><br><br>
+
+    <label for="obs">Observações:</label><br>
+    <textarea name="" id="" cols="30" rows="5"></textarea><br><br>
+
+    <input type="checkbox" name="aceito" id="aceito">
+    <label for="aceito">Desejo receber novidades e ofertas por e-mail</label><br><br>
+
+    <!-- <input type="submit" name="enviar" id="enviar">  Tanto faz a maneira, dá no mesmo--> 
+    <button type="submit">Enviar</button>
+    
+</form>
+
+
+
+</body>
+</html>
