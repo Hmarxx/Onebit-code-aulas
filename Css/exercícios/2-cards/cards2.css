@@ -1,0 +1,40 @@
+section {
+    color: #ffffff;
+}
+
+
+ul{
+    display:grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 300px 300px;
+    
+}
+
+li{
+    height: 150px;
+    width: 250px;
+    border: 1px solid;
+    margin: 10px;
+    padding: 5px;
+    background-color: #000;
+    justify-content: space-around;
+}
+
+.selected{
+    border: #00f solid;
+    background-color: #222121;
+}
+.hidden{
+    display: none;
+}
+
+h2{
+    font-size: 15px;
+}
+
+p{
+    font-size: 11px;
+}
+
+
+
