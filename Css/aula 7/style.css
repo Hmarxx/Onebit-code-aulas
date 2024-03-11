@@ -1,0 +1,29 @@
+li:nth-child(odd){
+    color: #00f;
+}
+li:nth-child(even){
+    color: #f00;
+}
+li:hover{
+    background-color: #232323;
+    color: #fff;
+}
+input:focus{
+    background-color: #555;
+}
+li::before{
+    content: " > ";
+    color: #232323;
+}
+li::after{
+    content: "\2699"
+}
+li:last-child{
+    color: #555;
+}
+li:first-child{
+    color:#045
+}
+li:not(:first-child){
+    color:blueviolet
+}
