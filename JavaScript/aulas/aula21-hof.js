@@ -11,8 +11,8 @@ const personagens = [
   // Função: MAP
   // "personagem" é um objeto criado que vai receber todos os nomes do objeto "nomes"
 
-// const nomes = personagens.map(personagem => personagem.nome)
-// console.table(nomes)
+const nomes = personagens.map(personagem => personagem.nome)
+console.table(nomes)
 
   // Função: FILTER
   // seleciona objetos de acordo com seu critério de true ou false, no caso selecionamos quem tinha a raça Orc e devolvemos um novo array
